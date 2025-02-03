@@ -3,6 +3,23 @@
 <head>
   <title>私の強みと弱み</title>
   <link rel="stylesheet" href="style_str.css" type="text/css">
+  <script>
+    function toggleVisibility(event) {
+      const h3Element = event.currentTarget;
+      const nextH2 = h3Element.nextElementSibling;
+
+      if (nextH2 && nextH2.tagName === 'H2') {
+        nextH2.style.display = nextH2.style.display === 'block' ? 'none' : 'block';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const h3Elements = document.querySelectorAll('h3');
+      h3Elements.forEach(h3 => {
+        h3.addEventListener('click', toggleVisibility);
+      });
+    });
+  </script>
 </head>
 <body>
   <h2>私の強み</h2>
