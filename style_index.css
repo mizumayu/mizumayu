@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* 柔らかな水色の背景色 */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4dd0e1; /* 水色のヘッダー */
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+h2 {
+  color: #00796b; /* 深緑色のタイトル */
+  text-align: center;
+}
+
+a {
+  color: #00796b;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 1em;
+}
+
+footer {
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
