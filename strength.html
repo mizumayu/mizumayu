@@ -5,20 +5,27 @@
   <link rel="stylesheet" href="style_str.css" type="text/css">
   <script>
     function toggleVisibility(event) {
-      const h3Element = event.currentTarget;
-      const nextH4 = h3Element.nextElementSibling;
+  const h3Element = event.currentTarget;
+  let nextElement = h3Element.nextElementSibling;
 
-      if (nextH4 && nextH4.tagName === 'H4') {
-        nextH4.style.display = nextH4.style.display === 'block' ? 'none' : 'block';
-      }
-    }
+  while (nextElement && nextElement.tagName === 'H4') {
+    nextElement.style.display = nextElement.style.display === 'block' ? 'none' : 'block';
+    nextElement = nextElement.nextElementSibling;
+  }
+}
 
-    document.addEventListener('DOMContentLoaded', () => {
-      const h3Elements = document.querySelectorAll('h3');
-      h3Elements.forEach(h3 => {
-        h3.addEventListener('click', toggleVisibility);
-      });
-    });
+document.addEventListener('DOMContentLoaded', () => {
+  const h4Elements = document.querySelectorAll('h4');
+  h4Elements.forEach(h4 => {
+    h4.style.display = 'none'; // 最初に隠す
+  });
+
+  const h3Elements = document.querySelectorAll('h3');
+  h3Elements.forEach(h3 => {
+    h3.addEventListener('click', toggleVisibility);
+  });
+});
+
   </script>
 </head>
 <body>
