@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* 柔らかな水色の背景色 */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #00796b; /* 深緑色のタイトル */
+  text-align: center;
+  display: none; /* 最初は隠す */
+}
+
+h3 {
+  color: #00796b;
+  margin-left: 20px;
+  cursor: pointer; /* クリック可能にする */
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+a {
+  color: #00796b;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
