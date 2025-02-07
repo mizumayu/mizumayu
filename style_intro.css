@@ -6,6 +6,15 @@ body {
   padding: 0;
 }
 
+header {
+      text-align: center;
+      background-color: lightgrey;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+}
+
 h2 {
   color: #00796b; /* 深緑色のタイトル */
   text-align: center;
