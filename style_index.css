@@ -58,3 +58,9 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+footer h2{
+  color: #00796b;
+  font-size: 18px;
+  text-align: left;
+}
