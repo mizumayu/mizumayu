@@ -65,9 +65,16 @@ p {
   margin-left: 20px;
 }
 
+.photo{
+  width: 30%;  /* 画面幅の30% */
+  margin: auto;
+  border: 2px solid #333;
+}
+
 img {
+  max-width: 100%;  /* 親要素の幅に合わせる */
+  height: auto;     /* 縦横比を維持 */
   display: block;
-  margin: 10px auto;
 }
 
 a {
