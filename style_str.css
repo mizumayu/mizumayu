@@ -8,6 +8,15 @@ body {
 
 h2 {
   color: #00796b; /* 深緑色のタイトル */
+  margin-left: 20px;
+}
+
+p.intro{
+  margin-left: 20px;
+}
+
+h3{
+  margin-left: 20px;
 }
 
 h3.tsuyomi {
