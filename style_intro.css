@@ -57,7 +57,7 @@ nav ul li a:hover{
 }
 
 .box{
-  border: 1px solid #000;
+  border: 2px dashed #00796b;
   padding: 10px;
   width: 45%;
   margin: 10px;
