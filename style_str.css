@@ -8,29 +8,32 @@ body {
 
 h2 {
   color: #00796b; /* 深緑色のタイトル */
-  text-align: center;
 }
 
 h3.tsuyomi {
   color: #fa8072;
   margin-left: 20px;
   cursor: pointer; /* クリック可能にする */
+  text-align: center;
 }
 
 h3.yowami {
   color: #66ccff;
   margin-left: 20px;
   cursor: pointer; /* クリック可能にする */
+  text-align: center;
 }
 
 h4 {
   color: #00796b;
   margin-left: 20px;
   display: none;
+  text-align: center;
 }
 
 p {
   margin-left: 20px;
+  text-align: center;
 }
 
 a {
