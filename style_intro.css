@@ -83,7 +83,7 @@ p {
 }
 
 img {
-  max-width: 60%;  /* 親要素の幅に合わせる */
+  max-width: 100%;  /* 親要素の幅に合わせる */
   height: auto;     /* 縦横比を維持 */
   display: block;
 }
