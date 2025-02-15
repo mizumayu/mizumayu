@@ -50,11 +50,26 @@ img {
 }
 
 .btn {
-  border-radius: 5px;
-  background-color: lightblue;
-  padding: 10px;
+  background-color: #ffd700;
+  color: #fff;
+  padding: 10px 30px;
   text-decoration: none;
-  color: white;
+  font-size: 1em;
+  outline: 1px solid;
+  outline-color: #ffd700;
+  outline-offset: 0px;
+  display: inline-block;
+  transition: .3s;
+}
+.button11:hover {
+  color: #fff;
+  animation: light .8s infinite;
+}
+@keyframes light {
+  100% { 
+    outline-color: transparent;
+    outline-offset: 10px;
+  }
 }
 
 /* 一旦キャンセル
