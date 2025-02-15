@@ -49,6 +49,14 @@ img {
   border-radius: 8px;
 }
 
+.btn {
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
 /* 一旦キャンセル
 footer {
   background-color: #00796b;
