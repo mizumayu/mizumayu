@@ -44,7 +44,7 @@ nav ul li a:hover{
 
 .now{
   display: inline-block;
-  padding: 8px 12px;
+  padding: 6px 10px;
   background-color: #F4EBDA;
   color: #262724;
   border-radius: 5px;
@@ -112,12 +112,119 @@ a:hover {
   text-decoration: none;
 }
 
-footer {
-  background-color: #A6B5A5;
-  color: white;
+@media screen and (max-width:480px){
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #F4EBDA;
+  color: #333;
+  margin: 0;
+  padding-top: 80px;
+}
+
+header {
+      text-align: center;
+      background-color: #A6B5A5;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 10px 0;
+      box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li{
+      display: inline-block;
+  　　 margin: 0 20px;
+      font-size: 18px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #F4EBDA;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+  background-color: #F4EBDA;
+  color: #262724;
+  border-radius: 5px;
+}
+
+.now{
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #F4EBDA;
+  color: #262724;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A6B5A5;
+  margin-left: 20px;
+}
+
+h2.midashi {
+  border: 1px #A6B5A5;
+}
+
+p.intro{
+  margin-left: 20px;
+  text-align: left;
+  color: #262724;
+}
+
+h3{
+  margin-left: 20px;
+  color: #262724;
+}
+
+h3.tsuyomi {
+  color: #fa8072;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer; /* クリック可能にする */
   text-align: center;
-  padding: 1em 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+}
+
+h3.yowami {
+  color: #66ccff;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer; /* クリック可能にする */
+  text-align: center;
+}
+
+h4 {
+  color: #262724;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px 20px;
+  display: none;
+  text-align: center;
+}
+
+p {
+  margin: 0 20px;
+  text-align: center;
+  color: #262724;
+}
+
+a {
+  color: #00796b;
+  text-decoration: none;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 }
