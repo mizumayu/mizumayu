@@ -1,3 +1,7 @@
+ミドリ：#A6B5A5
+しろ：#F4EBDA
+クロ：#262724
+
 body {
   font-family: Arial, sans-serif;
   background-color: #F4EBDA;
@@ -8,7 +12,7 @@ body {
 
 header {
       text-align: center;
-      background-color: #e0eefa;
+      background-color: #A6B5A5;
       position: fixed;
       top: 0;
       left: 0;
@@ -57,24 +61,25 @@ nav ul li a:hover{
 }
 
 .box{
-  border: 2px dashed #00796b;
+  border: 2px dashed #A6B5A5;
   padding: 10px;
   width: 45%;
   margin: 10px;
 }
 
 h2 {
-  color: #00796b; /* 深緑色のタイトル */
+  color: #A6B5A5;
   text-align: center;
 }
 
 h3 {
-  color: #00796b;
+  color: #A6B5A5;
   margin-left: 20px;
 }
 
 p {
   margin-left: 20px;
+  color: #262724
 }
 
 .photo{
