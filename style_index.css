@@ -46,16 +46,11 @@ img {
   margin: 200px;
 }
 
-.flex{
-  display: flex;
-  justify-content: space-between;
-}
-
 .box{
   border: 2px dashed #00796b;
   padding: 10px;
   width: 45%;
-  margin: 10px;
+  margin: 50px;
 }
 
 .btn {
