@@ -51,14 +51,6 @@ img {
   margin: 30px;
 }
 
-/* 一旦キャンセル
-.box{
-  border: 2px dashed #00796b;
-  padding: 10px;
-  width: 45%;
-  margin: 50px;
-}
-
 .btn {
   background-color: #ffd700;
   color: #fff;
@@ -81,6 +73,16 @@ img {
     outline-offset: 10px;
   }
 }
+
+
+/* 一旦キャンセル
+.box{
+  border: 2px dashed #00796b;
+  padding: 10px;
+  width: 45%;
+  margin: 50px;
+}
+
 
 footer {
   background-color: #00796b;
