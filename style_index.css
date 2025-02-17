@@ -46,6 +46,11 @@ img {
   margin: 200px;
 }
 
+.link {
+  text-align: center;
+}
+
+/* 一旦キャンセル
 .box{
   border: 2px dashed #00796b;
   padding: 10px;
@@ -76,7 +81,6 @@ img {
   }
 }
 
-/* 一旦キャンセル
 footer {
   background-color: #00796b;
   color: white;
