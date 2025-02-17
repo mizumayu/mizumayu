@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e0f7fa; /* 柔らかな水色の背景色 */
+  background-color: #F4EBDA;
   color: #333;
   margin: 0;
   padding-top: 80px;
@@ -8,7 +8,7 @@ body {
 
 header {
       text-align: center;
-      background-color: #e0eefa;
+      background-color: #A6B5A5;
       position: fixed;
       top: 0;
       left: 0;
@@ -31,38 +31,40 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  color: #333;
+  color: #F4EBDA;
   padding: 8px 12px;
   transition: all 0.3s ease;
 }
 
 nav ul li a:hover{
-  background-color: #00796b;
-  color: white;
+  background-color: #F4EBDA;
+  color: #262724;
   border-radius: 5px;
 }
 
 .now{
   display: inline-block;
   padding: 8px 12px;
-  background-color: #00796b;
-  color: white;
+  background-color: #F4EBDA;
+  color: #262724;
   border-radius: 5px;
   font-weight: bold;
 }
 
 h2 {
-  color: #00796b; /* 深緑色のタイトル */
+  color: #A6B5A5;
   margin-left: 20px;
 }
 
 p.intro{
   margin-left: 20px;
   text-align: left;
+  color: #262724;
 }
 
 h3{
   margin-left: 20px;
+  color: #262724;
 }
 
 h3.tsuyomi {
@@ -80,7 +82,7 @@ h3.yowami {
 }
 
 h4 {
-  color: #00796b;
+  color: #262724;
   margin-left: 20px;
   margin-right: 20px;
   display: none;
@@ -90,6 +92,7 @@ h4 {
 p {
   margin-left: 20px;
   text-align: center;
+  color: #262724;
 }
 
 a {
@@ -99,7 +102,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 footer {
