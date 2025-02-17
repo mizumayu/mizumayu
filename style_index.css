@@ -61,7 +61,7 @@ img {
   display: inline-block;
   transition: .3s;
 }
-.button11:hover {
+.btn:hover {
   color: #fff;
   animation: light .8s infinite;
 }
