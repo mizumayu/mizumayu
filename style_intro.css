@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e0f7fa; /* 柔らかな水色の背景色 */
+  background-color: #F4EBDA;
   color: #333;
   margin: 0;
   padding-top: 80px;
@@ -31,22 +31,22 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  color: #333;
+  color: #F4EBDA;
   padding: 8px 12px;
   transition: all 0.3s ease;
 }
 
 nav ul li a:hover{
-  background-color: #00796b;
-  color: white;
+  background-color: #F4EBDA;
+  color: #262724;
   border-radius: 5px;
 }
 
 .now{
   display: inline-block;
   padding: 8px 12px;
-  background-color: #00796b;
-  color: white;
+  background-color: #F4EBDA;
+  color: #262724;
   border-radius: 5px;
   font-weight: bold;
 }
