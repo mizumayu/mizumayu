@@ -8,7 +8,7 @@ body {
 
 header {
       text-align: center;
-      background-color: #e0eefa;
+      background-color: #A6B5A5;
       position: fixed;
       top: 0;
       left: 0;
@@ -31,34 +31,34 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  color: #333;
+  color: #F4EBDA;
   padding: 8px 12px;
   transition: all 0.3s ease;
 }
 
 nav ul li a:hover{
-  background-color: #00796b;
-  color: white;
+  background-color: #F4EBDA;
+  color: #262724;
   border-radius: 5px;
 }
 
 .now{
   display: inline-block;
   padding: 8px 12px;
-  background-color: #00796b;
-  color: white;
+  background-color: #F4EBDA;
+  color: #262724;
   border-radius: 5px;
   font-weight: bold;
 }
 
 
 h2 {
-  color: #00796b; /* 深緑色のタイトル */
+  color: #A6B5A5;
   text-align: center;
 }
 
 h3 {
-  color: #00796b;
+  color: #A6B5A5;
   margin-left: 20px;
 }
 
@@ -68,16 +68,17 @@ h4 {
 
 p {
   margin-left: 20px;
+  color: #262724;
 }
 
 a {
-  color: #00796b;
+  color: #A6B5A5;
   text-decoration: none;
   margin: 0 1em;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 table{
@@ -89,14 +90,15 @@ table{
 table th,table td{
   padding: 10px 0;
   text-align: center;
+  color: #262724;
 }
 
 table tr:nth-child(odd){
-  background-color: #caf4fa
+  background-color: #F4EBDA;
 }
 
 table tr:nth-child(even){
-  background-color: #acf3fc
+  background-color: #A6B5A5;
 }
 
 footer {
