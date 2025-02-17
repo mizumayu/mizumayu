@@ -58,6 +58,7 @@ nav ul li a:hover{
 h2 {
   color: #A6B5A5;
   text-align: center;
+  margin: 0px 5px;
 }
 
 h3 {
@@ -157,10 +158,6 @@ nav ul li a:hover{
   color: #262724;
   border-radius: 5px;
   font-weight: bold;
-}
-
-.mokuhyo{
-  display: flex;
 }
 
 h2 {
