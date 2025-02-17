@@ -24,9 +24,9 @@ nav ul{
 }
 
 nav ul li{
-      display: inline-block;
-  　　 margin: 0 20px;
-      font-size: 18px;
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 18px;
 }
 
 nav ul li a{
