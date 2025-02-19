@@ -101,7 +101,7 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
-	body {
+body {
   font-family: Arial, sans-serif;
   background-color: #F4EBDA;
   color: #333;
